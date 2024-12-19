@@ -18,8 +18,8 @@ const CartItem = ({
         add
       </i>{' '}
       = {price * quantity} руб.
-      <span class="secondary-content" onClick={() => removeFromCart(id)}>
-        <i class="material-icons cart-delete">close</i>
+      <span className="secondary-content" onClick={() => removeFromCart(id)}>
+        <i className="material-icons cart-delete">close</i>
       </span>
     </li>
   );
